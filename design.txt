@@ -1,0 +1,12 @@
+Header
+    1. Logo
+    2. Nave items
+Body
+    1. Search
+    2. RestaurantContainer
+        1. RestaurantCard
+Footer
+    1. Copyright
+    2. Links
+    3. Address
+    4. Contact

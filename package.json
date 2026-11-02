@@ -1,0 +1,31 @@
+{
+  "name": "swiggy-clone-react",
+  "version": "1.0.0",
+  "description": "creating swiggy clone using react",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushin-gh/Swiggy-Clone-React.git"
+  },
+  "keywords": [
+    "swiggy",
+    "react",
+    "clone",
+    "frontend"
+  ],
+  "author": "Rushikesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushin-gh/Swiggy-Clone-React/issues"
+  },
+  "homepage": "https://github.com/rushin-gh/Swiggy-Clone-React#readme",
+  "dependencies": {
+    "parcel": "^2.16.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}

@@ -1,0 +1,9 @@
+#header,
+#footer {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.temp-comp {
+  border: violet solid 1px;
+}

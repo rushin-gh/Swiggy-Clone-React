@@ -1,9 +1,50 @@
 #header,
-#footer {
+#footer,
+#navbar > ul {
   display: flex;
   /* flex-direction: row; */
 }
 
-.temp-comp {
-  border: violet solid 1px;
+#header {
+  align-items: center;
+  justify-content: space-between;
+
+  border: 2px solid black;
+}
+
+#navbar > ul > li {
+  margin-right: 30px;
+  list-style: none;
+  font-size: 20px;
+}
+
+#body {
+  border: 3px solid violet;
+  height: 80svb;
+}
+
+.body-components {
+  padding: 10px;
+}
+
+#footer > h3 {
+  margin: 5px;
+}
+
+#footer {
+  justify-content: center;
+  border: 3px solid black;
+}
+
+.resto-card {
+  border: 1px solid red;
+  padding: 10px;
+  width: 200px;
+  height: 350px;
+  /* display: flex; */
+}
+
+#item-details {
+  display: flex;
+  justify-content: space-around;
 }

@@ -5,6 +5,10 @@ Body
     1. Search
     2. RestaurantContainer
         1. RestaurantCard
+            1.Image
+            2. Name of Restaurant
+            3. Cuisine
+            4. Rating, Estimated Time, Price
 Footer
     1. Copyright
     2. Links

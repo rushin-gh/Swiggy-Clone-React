@@ -20,7 +20,7 @@
 
 #body {
   border: 3px solid violet;
-  height: 80svb;
+  /* height: 75svb; */
 }
 
 .body-components {
@@ -37,14 +37,27 @@
 }
 
 .resto-card {
-  border: 1px solid red;
   padding: 10px;
   width: 200px;
   height: 350px;
-  /* display: flex; */
+}
+
+.resto-card:hover {
+  border: 1px solid red;
+  cursor: pointer;
 }
 
 #item-details {
   display: flex;
   justify-content: space-around;
+}
+
+/* #resto-container {
+  display: "flex"
+} */
+
+#resto-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

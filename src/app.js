@@ -34,6 +34,21 @@ const Body = () => {
       </div>
       <div id="resto-container">
         <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
+        <RestoCard />
       </div>
     </div>
   );
@@ -75,7 +90,7 @@ const Footer = () => {
 
 const App = () => {
   return (
-    <div id="app">
+    <div id="app" style={{backgroundColor: "#afd9f1"}}>
       <Header />
       <Body />
       <Footer />
